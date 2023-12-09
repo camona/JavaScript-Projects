@@ -195,9 +195,10 @@ nav {
   justify-content: space-between;
 }
 
-.nav-center h4 {
+.nav-center h1 {
   margin-bottom: 0;
   color: var(--clr-primary-5);
+  font-size: 1rem;
 }
 
 .nav-links {
