@@ -3,11 +3,15 @@ const btn = document.querySelector("#btn");
 const color = document.querySelector(".color");
 
 btn.addEventListener("click", function() {
-    const randomNumbers = getRandomNumbers();
-    document.body.style.backgroundColor = color[randomNumbers];
-    color.textContent = color[randomNumbers];
+    const hexColor = getRandomNumber();
+    document.body.style.backgroundColor = hexColor;
+    color.textContent = hexColor;
 });
 
-function getRandomNumbers() {
-    
-}
+function getRandomNumber() {
+    let hexColor = '#';
+    for (let i = 0; i < 6; i++) {
+        hexColor += hex[Math.floor(Math.random() * hex.length)];
+    }
+    return hexColor;
+};
