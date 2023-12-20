@@ -4,3 +4,4 @@ I love to practice coding doing projects. I found some projects ideas on [freeCo
 
 In this folder you will find the following projects:
 - Color Flipper 🎨
+- Counter 1️⃣2️⃣3️⃣
